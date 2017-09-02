@@ -27,7 +27,7 @@ class CSVReader < Employee
   def write_to(file_name)     
     File.open(file_name, 'w') do |file|
       @employees.each do |designation, value|   
-        @employees[designation].length > 1 ? (file.puts "#{designation}s") : (file.puts "#{designation}")
+        @employees[designation].length <= 1 ? (file.puts "#{designation}") : (file.puts "#{designation}s")
         file.puts value
         file.puts
       end
