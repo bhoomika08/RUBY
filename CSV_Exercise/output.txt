@@ -1,10 +1,10 @@
-Developers
-Jack (Employee Id: 15)
-John (Employee Id: 12)
-
 Designers
 Mary (Employee Id: 13)
 Jane (Employee Id: 17)
+
+Developers
+John (Employee Id: 12)
+Jack (Employee Id: 15)
 
 Tester
 Johny (Employee Id: 19)
